@@ -22,7 +22,7 @@ jobs:
         run: echo "¡Archivos listos para desplegar!"
 
       - name: Desplegar en GitHub Pages
-         uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: main
-          folder: .
+         branch: main
+         folder: .
