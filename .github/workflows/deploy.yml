@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -  name: Clonar el repositorio
+      - name: Clonar el repositorio
         uses: actions/checkout@v3
 
       - name: Configurar GitHub Pages
